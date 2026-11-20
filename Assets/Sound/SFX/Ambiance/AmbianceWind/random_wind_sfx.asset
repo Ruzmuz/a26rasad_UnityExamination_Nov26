@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-5140217301561040417
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ambiance_wind_operator_medium_loop_01_{-5140217301561040417}
+  m_AudioClip: {fileID: 8300000, guid: 19d763b775a1d7947ad19b1a14fb364c, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &1315105975828715028
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ambiance_wind_zone_transition_{1315105975828715028}
+  m_AudioClip: {fileID: 8300000, guid: 4ec3252a725e6c74882e9185aca2b157, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &4099124376593940872
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ambiance_wind_sample_soft_loop_01_{4099124376593940872}
+  m_AudioClip: {fileID: 8300000, guid: c4bd50d5441a1a249b0c77410991db43, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5629405954122242842
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ambiance_wind_operator_soft_loop_01_{5629405954122242842}
+  m_AudioClip: {fileID: 8300000, guid: 53219ce6462b18d4484e6a3465038a99, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: random_wind_sfx
+  m_Volume: 0
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 0
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: 0, y: 0}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: -5140217301561040417}
+  - {fileID: 5629405954122242842}
+  - {fileID: 8533739317187830211}
+  - {fileID: 4099124376593940872}
+  - {fileID: 8327851184978510169}
+  - {fileID: 1315105975828715028}
+  m_AvoidRepeatingLast: 0
+  m_PlaybackMode: 2
+  m_TriggerMode: 1
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 2
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 0
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &8327851184978510169
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ambiance_wind_sample_strong_loop_01_{8327851184978510169}
+  m_AudioClip: {fileID: 8300000, guid: ec000302963127e4ca08b82a3c91e38f, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &8533739317187830211
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ambiance_wind_sample_medium_loop_01_{8533739317187830211}
+  m_AudioClip: {fileID: 8300000, guid: 2ce28b67650899d4d9a3dfe2a71900a8, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
