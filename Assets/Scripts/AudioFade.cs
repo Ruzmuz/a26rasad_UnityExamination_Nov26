@@ -2,17 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(AudioSource))]
 public class AudioFade : MonoBehaviour
 {
-    private AudioSource source;
+    [SerializeField] private AudioSource source;
     public float fadeInTargetVolume;
     public float fadeOutTargetVolume;
     public float fadeSpeed;
 
     private void Start()
     {
-        source = GetComponent<AudioSource>();
+        
     }
 
     public void StartFadeIn()
